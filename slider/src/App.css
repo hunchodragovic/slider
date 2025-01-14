@@ -23,7 +23,7 @@ body,
 .item {
   min-width: 25rem; /* Set to 1280px */
   min-height: 20rem; /* Set to 720px */
-  margin: 20px;
+  margin: 21px;
   background-size: cover;
   background-position: center;
   display: flex;
