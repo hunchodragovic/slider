@@ -1,0 +1,40 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background: linear-gradient(135deg, #800080, #0000ff, #000000);
+}
+.carousel {
+  display: flex;
+  cursor: grab;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.item {
+  min-width: 25rem; /* Set to 1280px */
+  min-height: 20rem; /* Set to 720px */
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item img {
+  width: 100%; /* Explicitly set width to 1280px */
+  height: 100%; /* Explicitly set height to 720px */
+  border-radius: 2rem;
+  object-fit: cover; /* Ensures the image covers the space without stretching */
+  pointer-events: none;
+}
